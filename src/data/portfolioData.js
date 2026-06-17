@@ -43,7 +43,7 @@ export const skills = [
   },
   {
     category: "Cybersecurity & Pentest",
-    items: ["Nmap", "Wazuh (EDR/SOC)", "pfSense", "MITRE ATT&CK", "Google Dorking", "WHOIS / DNS Footprinting", "Cryptography (AES · DES · 3DES)"],
+    items: ["Nmap", "Wazuh (EDR/SOC)", "pfSense", "OpenVPN", "Suricata (IDS/IPS)", "MITRE ATT&CK", "Google Dorking", "WHOIS / DNS Footprinting", "Cryptography (AES · DES · 3DES)"],
   },
   {
     category: "Networking & Systems",
@@ -100,6 +100,15 @@ export const certifications = [
 export const projects = [
   {
     id: 1,
+    title: "Enterprise Network Security Architecture — OpenVPN, pfSense & Suricata",
+    description: "Virtualized enterprise security infrastructure with 4 interconnected VMs. Designed a Client-to-Site OpenVPN tunnel (PKI, certificates), hardened an Ubuntu server (sysctl, UFW, PAM, SSH key auth), deployed Suricata IDS/IPS on pfSense with custom detection rules, and validated resilience against simulated Nmap scans and ICMP flood attacks from Kali Linux.",
+    tags: ["pfSense", "OpenVPN", "Suricata", "IDS/IPS", "Linux Hardening", "VirtualBox"],
+    github: "https://github.com/khadijaourahou/projet-securite-reseau",
+    category: "Cybersecurity",
+    featured: true,
+  },
+  {
+    id: 2,
     title: "SOC Lab — Wazuh EDR",
     description: "Hands-on SOC Level 1 lab built with Wazuh open-source EDR. Agent deployment, SSH brute-force detection, log aggregation, vulnerability scanning, and compliance auditing against NIST and GDPR frameworks.",
     tags: ["Wazuh", "Linux", "SOC", "SIEM", "MITRE ATT&CK", "OpenVAS"],
@@ -108,7 +117,7 @@ export const projects = [
     featured: true,
   },
   {
-    id: 2,
+    id: 3,
     title: "Network Simulation — OSPF & VLANs",
     description: "Multi-router topology in GNS3 with 4 Cisco routers running OSPF. Configured inter-VLAN routing, 802.1Q trunking, and validated connectivity via ping and traceroute across segmented networks.",
     tags: ["GNS3", "Cisco IOS", "OSPF", "VLANs", "802.1Q"],
@@ -117,7 +126,7 @@ export const projects = [
     featured: true,
   },
   {
-    id: 3,
+    id: 4,
     title: "Windows Server 2019 Administration",
     description: "Full server administration using PowerShell CLI only — no GUI. Active Directory, DNS zones, DHCP scopes, IIS virtual hosts, NTFS permissions, and group policies on Windows Server 2019 Core.",
     tags: ["Windows Server", "PowerShell", "Active Directory", "DNS", "DHCP", "IIS"],
@@ -126,7 +135,7 @@ export const projects = [
     featured: true,
   },
   {
-    id: 4,
+    id: 5,
     title: "Encryption Performance Analysis",
     description: "Benchmark comparing AES-128, DES, and 3DES across ECB, CBC, and CFB modes on files from 1 MB to 10 MB. Python and Bash scripts measure execution time and CPU usage with matplotlib visualisation.",
     tags: ["Python", "Bash", "OpenSSL", "Cryptography", "matplotlib"],
@@ -135,7 +144,7 @@ export const projects = [
     featured: false,
   },
   {
-    id: 5,
+    id: 6,
     title: "Facial Recognition Attendance System",
     description: "University attendance system built with a microservices architecture. Teachers capture a group photo via a Flutter mobile app; a FastAPI service identifies students using DeepFace, and results appear in real time on a React admin dashboard via WebSocket.",
     tags: ["Flutter", "Spring Boot", "FastAPI", "DeepFace", "React", "PostgreSQL", "JWT"],
@@ -144,7 +153,7 @@ export const projects = [
     featured: false,
   },
   {
-    id: 6,
+    id: 7,
     title: "KotbiHousing — Student Housing Platform",
     description: "Full-stack platform connecting students and landlords. JWT authentication, dual-role access, advanced filters, rental request management. Multi-stage Docker build and GitLab CI/CD with GitFlow strategy.",
     tags: ["React", "Spring Boot", "Java", "JWT", "Docker", "GitLab CI/CD"],
@@ -153,7 +162,7 @@ export const projects = [
     featured: false,
   },
   {
-    id: 7,
+    id: 8,
     title: "Lung Cancer Classification",
     description: "Medical AI system using a CNN achieving ~97% accuracy on CT scan classification. React frontend, Flask API backend, MySQL database. Multilingual medical reports (FR/EN/AR) with electronic signature.",
     tags: ["Python", "TensorFlow", "CNN", "Flask", "React", "MySQL"],
@@ -162,7 +171,7 @@ export const projects = [
     featured: false,
   },
   {
-    id: 8,
+    id: 9,
     title: "Hospital Management System",
     description: "Laravel web application for clinic management — online appointment booking, symptom-based doctor suggestions, and an admin dashboard with full staff and scheduling management.",
     tags: ["Laravel", "PHP", "MySQL", "Bootstrap"],
@@ -171,7 +180,7 @@ export const projects = [
     featured: false,
   },
   {
-    id: 9,
+    id: 10,
     title: "HeatlyYum — Nutrition Android App",
     description: "Wellness app with diet assessment, macro calculator, recipe suggestions, water intake tracker, and an integrated nutrition chatbot. Built in Android Studio with Firebase backend.",
     tags: ["Android Studio", "Java", "Kotlin", "Firebase"],
