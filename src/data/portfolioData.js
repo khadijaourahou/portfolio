@@ -7,7 +7,7 @@ export const personalInfo = {
   email: "khad.ourahou@gmail.com",
   location: "Marrakech, Morocco",
   cv: "/cv-khadija-ourahou.pdf",
-  bio: "Engineering student specialising in network security, infrastructure, and secure application development. I work across the full stack — from configuring routing protocols and hardening Linux systems to building web applications and automating deployments.",
+  bio: "5th-year engineering student specialising in network security, infrastructure, and secure application development. I work across the full stack — from configuring routing protocols and hardening Linux systems to building web applications and automating deployments.",
   available: true,
 };
 

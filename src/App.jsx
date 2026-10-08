@@ -166,7 +166,7 @@ function Hero() {
       <div className="hero-content">
         <p className="hero-eyebrow">
           <span className="hero-dot" aria-hidden="true" />
-          Open to internship opportunities
+          Open to final-year internship opportunities
         </p>
 
         <h1 className="hero-name">Khadija<br />Ourahou.</h1>
@@ -245,7 +245,7 @@ function About() {
       <div className="about-grid">
         <div className="about-text">
           <p>
-            I'm Khadija, a 4th-year Information Security Engineering student at the
+            I'm Khadija, a 5th-year Information Security Engineering student at the
             Faculty of Sciences and Techniques of Marrakech,{' '}
             <strong>Cadi Ayyad University</strong>. My academic journey has provided
             me with a solid foundation in cybersecurity, computer networks, system
@@ -264,9 +264,9 @@ function About() {
             I am also passionate about <strong>computer networks</strong> and have
             completed several projects involving routing protocols, VLAN
             configuration, network simulation with GNS3 and Cisco Packet Tracer,
-            and infrastructure deployment. Currently, I am seeking a 2-month
-            internship in cybersecurity, network administration, SOC operations,
-            or DevOps environments.
+            and infrastructure deployment. Currently, I am seeking a final-year
+            internship in cybersecurity, network
+            administration, SOC operations, or DevOps environments.
           </p>
 
           {/* Interests */}
@@ -549,9 +549,10 @@ function Contact() {
         <div className="contact-lead">
           <h3>Let's connect</h3>
           <p>
-            I'm actively looking for a 2-month internship in network engineering,
-            systems administration, or cybersecurity. If you have a role, a project,
-            or just want to talk about routing protocols — feel free to reach out.
+            I'm currently looking for a final-year internship
+            in network engineering, systems administration, or cybersecurity. If you
+            have a role, a project, or just want to talk about routing protocols —
+            feel free to reach out.
           </p>
 
           <div className="cinfo-list">
@@ -647,7 +648,7 @@ function Footer() {
   return (
     <footer className="site-footer">
       <p className="footer-copy">
-        Designed &amp; built by <span>Khadija Ourahou</span> — 2025
+        Designed &amp; built by <span>Khadija Ourahou</span> — 2026
       </p>
       <div className="footer-links">
         <a href={personalInfo.github}   target="_blank" rel="noreferrer">
